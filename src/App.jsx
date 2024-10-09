@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import "./App.css";
-import ImageRotator from "../ImageRotator";
+import ImageRotator from "./ImageRotator";
 
 function App() {
 	return (
@@ -100,8 +100,68 @@ function App() {
 					Share insights, tips, and experiences with fellow coders through our blog section. Learn, teach, and grow your knowledge while inspiring others.
 					</p>
 				</div>
-
 			</div>
+			{/* 3. Get Started in 4 Easy Steps: */}
+
+			<div className="relative page3 bg-[#0a0a0a] h-screen flex flex-col items-center justify-center font-sans overflow-hidden space-y-10">
+				{/* Sign Up Card 1 */}
+				<div
+					className="Sign flex items-center border-2 border-white max-w-[700px] w-full h-[100px] p-4 shadow-lg rounded-lg"
+					style={{ boxShadow: "2px 0px 20px rgba(0, 255, 0, 0.6)" }}
+				>
+					<img src="/add-user.png" alt="" className="h-12 w-12" />
+					<div className="mx-8">
+					<h4 className="text-cyan-400  font-bold">Step 1: Sign Up & Join the Community</h4>
+					<p className="text-gray-400">Create your account in seconds and unlock access to hundreds of challenges.</p>
+					</div>
+				</div>
+
+				{/* Step 2: Choose Your Challenge */}
+				<div
+					className="Sign flex items-center border-2 border-white max-w-[700px] w-full h-[100px] p-4 shadow-lg rounded-lg"
+					style={{ boxShadow: "0 0px 20px rgba(0, 255, 0, 0.6)" }}
+				>
+					<img src="/software-testing.png" alt="" className="h-12 w-12" />
+					<div className="mx-8">
+					<h4 className="text-cyan-400  font-bold">Step 2: Choose Your Challenge</h4>
+					<p className="text-gray-400">Explore a wide range of DSA topics and pick challenges that match your skill level.</p>
+					</div>
+				</div>
+
+				{/* Step 3: Code, Submit & Test */}
+				<div
+					className="Sign flex items-center border-2 border-white max-w-[700px] w-full h-[100px] p-4 shadow-lg rounded-lg"
+					style={{ boxShadow: "0 0px 20px rgba(0, 255, 0, 0.6)" }}
+				>
+					<img src="/complaint.png" alt="" className="h-12 w-12" />
+					<div className="mx-8">
+					<h4 className="text-cyan-400  font-bold">Step 3: Code, Submit & Test</h4>
+					<p className="text-gray-400">Write your code, submit it, and receive instant feedback as your solution is tested against a variety of cases. Improve and resubmit if needed!</p>
+					</div>
+				</div>
+
+				{/* Step 4: Track & Rise */}
+				<div
+					className="Sign flex items-center border-2 border-white max-w-[700px] w-full h-[100px] p-4 shadow-lg rounded-lg"
+					style={{ boxShadow: "0 0px 20px rgba(0, 255, 0, 0.6)" }}
+				>
+					<img src="/next-level.png" alt="" className="h-12 w-12" />
+					<div className="mx-8">
+					<h4 className="text-cyan-400  font-bold">Step 4: Track & Rise</h4>
+					<p className="text-gray-400">Monitor your progress, climb the leaderboards, and get noticed by recruiters as you level up.</p>
+					</div>
+					</div>
+			</div>
+		{/* 4. Unlock Your Dream Job with Code Champ: */}
+		<div className="relative page3 bg-[#0a0a0a] h-screen flex flex-col items-center justify-center font-sans overflow-hidden space-y-10">
+		
+		
+		
+		
+		
+		
+		</div>
+
 		</>
 	);
 }
